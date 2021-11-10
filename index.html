@@ -17,10 +17,10 @@
                 
               </div>
         </nav>
-        <section></section>
+        
         <!--header-->
         <div class="container-fluid text-center bg-info pt-4 pb-5">
-            <img class="h-25 w-25" src="undraw_profile_pic_ic5t.svg">
+            <img class="h-25 w-25" src="undraw_profile_pic_ic5t.svg" alt="foto profilo">
             <div class="row justify-content-center">
                 <span class="h1">Pinco Pallo</span>
                 <span class="text-uppercase">Web designer</span>
@@ -28,15 +28,172 @@
         </div>
 
            
-        <section></section>
+        
         <!--portfolio-->
-        <section></section>
+        <h3 class="text-center pt-3 text-uppercase">Portfolio</h3>
+        <div class="row">
+            
+                <div class="col-4">
+                    <div class="card">
+                        <img src="cabin.png" alt="cabina">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Cabin website</h5>
+                        <div class="text-center">
+                        <a href="#" class="btn btn-info me-3">Preview</a>
+                        <a href="#" class="btn btn-outline-info">Visit site</a>
+                        </div>
+                        </div>   
+                    </div>
+                </div>    
+            
+                <div class="col-4">
+                    <div class="card">
+                        <img src="cake.png" alt="torta">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Cake website</h5>
+                        <div class="text-center">
+                        <a href="#" class="btn btn-info me-3">Preview</a>
+                        <a href="#" class="btn btn-outline-info">Visit site</a>
+                        </div>
+                        </div>   
+                    </div>
+                </div>    
+            
+                <div class="col-4">
+                        <div class="card">
+                        <img src="circus.png" alt="circo">
+                            <div class="card-body">
+                            <h5 class="card-title text-center">Circus website</h5>
+                            <div class="text-center">
+                            <a href="#" class="btn btn-info me-3">Preview</a>
+                            <a href="#" class="btn btn-outline-info">Visit site</a>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+        </div>    
+        <div class="row">
+            
+            <div class="col-4">
+                    <div class="card">
+                    <img src="game.png" alt="game">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">Game website</h5>
+                        <div class="text-center">
+                        <a href="#" class="btn btn-info me-3">Preview</a>
+                        <a href="#" class="btn btn-outline-info">Visit site</a>
+                        </div>
+                        </div>   
+                    </div>
+            </div>
+        
+            <div class="col-4">
+                <div class="card">
+                    <img src="safe.png" alt="safe">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Safe website</h5>
+                    <div class="text-center">
+                    <a href="#" class="btn btn-info me-3">Preview</a>
+                    <a href="#" class="btn btn-outline-info">Visit site</a>
+                    </div>
+                    </div>   
+                </div>
+            </div>
+        
+            <div class="col-4">
+                <div class="card">
+                    <img src="submarine.png" alt="submarine">
+                    <div class="card-body">
+                    <h5 class="card-title text-center">Submarine website</h5>
+                    <div class="text-center">
+                    <a href="#" class="btn btn-info me-3">Preview</a>
+                    <a href="#" class="btn btn-outline-info">Visit site</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+       
         <!--about-->
-        <section></section>
+        <section>
+            <div class="bg-info p-3">
+                <h3 class="text-center">ABOUT</h3>
+                <div class="row justify-content-center">
+                    <div class="col-3">Nulla bibendum nunc a turpis sagittis,nec ornare ligula volutpat. Sed mattis malesuada failisis. Phasellus leo odio,varius eget purus et,tincidunt lacinia lectus.Morbi ut nulla sem.</div>
+                    <div class="col-3">Vestibulum consectetur molestie auctor.Morbi finibus est in elit tincidunt semper.Phasellus eu elit eu erat semper fringilla.Nam tincidunt arcu et pharetra aliquet.</div>
+                </div>
+                <div class="container-fluid text-center p-2">
+                    <button type="button" class="btn btn-info border border-light text-light fs-5">
+                        <i class="bi bi-download pe2"></i>&nbsp;Download 
+                    </button>
+                </div>
+            </div>
+        
+
+        </section>
         <!--contact me-->
-        <section></section>
+        <section class="container">
+            <h3 class="text-center p-3">CONTACT ME</h3>
+            <div class="row gy-2">
+                <div class="col">
+                    <label class="form-label" for="first-name">First name</label>
+                    <input class="form-control" placeholder="First name" type="text" id="first-name" required>
+                </div>
+                <div class="col">
+                    <label class="form-label" for="last-name">Last name</label>
+                    <input class="form-control" placeholder="Last name" type="text" id="last-name" required>
+                </div>
+            </div>
+            <div class="row gy-2">
+                <div class="col">
+                    <label class="form-label" for="first-name">Email address</label>
+                    <input class="form-control" placeholder="Email address" type="text" id="email" required>
+                </div>
+                <div class="col">
+                    <label class="form-label" for="last-name">Phone number</label>
+                    <input class="form-control" placeholder="Phone number" type="text" id="phone number" required>
+                </div>
+            </div>
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message here..."></textarea>
+            <div class="container-fluid text-center p-2">
+                <button type="button" class="btn btn-info mb-3 border border-light fs-5">
+                    <i class="bi bi-send"></i>&nbsp;Send
+                </button>
+            </div>
+           
+
+        </section>
         <!--footer-->
-        <section></section>
+        <div class="container-fluid bg-dark">
+            <div class="row justify-content-center text-secondary text-center py-5">
+                <div class="col">
+                    <h3 class="text-uppercase">location</h3>
+                    <span>2215 John Daniel Drive</span>
+                    <p>Clark,MO65243</p>
+                </div>
+                <div class="col">
+                    <h3 class="text-uppercase">around the web</h3>
+                    <button type="button" class="btn mx-1 btn-sm btn-outline-secondary border border-secondary fs-5">
+                        <i class="bi bi-facebook"></i>
+                    </button>
+                    <button type="button" class="btn mx-1 btn-sm btn-outline-secondary border border-secondary fs-5">
+                        <i class="bi bi-twitter"></i>
+                    </button>
+                    <button type="button" class="btn mx-1 btn-sm btn-outline-secondary border border-secondary fs-5">
+                        <i class="bi bi-linkedin"></i>
+                    </button>
+                    <button type="button" class="btn mx-1 btn-sm btn-outline-secondary border border-secondary fs-5">
+                        <i class="bi bi-instagram"></i>
+                    </button>
+                </div>
+                <span>Copyright &copy; Your Website 2021</span>
+
+            </div>
+            
+        </div>
+            
+       
 
     </container>
 
